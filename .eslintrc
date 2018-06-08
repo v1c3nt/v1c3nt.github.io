@@ -1,0 +1,21 @@
+{
+# Ou travaille t on ? navigateur sur un serveur sur ....
+    "env": {
+      # On travail dans le Navigateur
+        "browser": true,
+        "jquery": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error", 2],
+        # ne mettre que de '' erreur si ""
+        "quotes": ["error", "single"],
+        # Obligation de mettre un ; a la fin
+        "semi": ["error", "always"],
+        # pas d'erreur si je mets un console.log()
+        "no-console": "off",
+        # Obligation de ===
+        "eqeqeq": "error",
+        "no-else-return": "error"
+    }
+}
