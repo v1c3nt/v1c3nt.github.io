@@ -59,7 +59,7 @@
 }
 
 .background_blur {
-  background: url(tree.jpg);
+  background: url(./tree.jpg);
   background-position: center;
   background-size: cover;
   height: 31.25em;
@@ -69,7 +69,7 @@
 }
 
 .background_clean {
-  background-image: url(tree.jpg);
+  background-image: url(./tree.jpg);
   background-position: center;
   background-size: cover;
   height: 31.25em;
