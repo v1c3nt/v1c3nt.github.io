@@ -1,0 +1,80 @@
+
+.wrapper{
+  margin: auto;
+  max-width: 1000px;
+  width: 80vw;
+}
+
+.wrapper_rotation{
+  left: -10em;
+  position: absolute;
+  top: 4em;
+  transform: rotate(90deg);
+  transform-origin: 75px 75px;
+  width: 300em;
+  z-index: 15;
+}
+.slider_height{
+  margin: auto;
+  width: 30em;
+}
+
+.slider_width{
+  height: 2.5em;
+  margin: auto;
+  width: 48.75em;
+}
+
+.container{
+  max-width: 1000px;
+  position: relative;
+  width: 50em;
+}
+
+.area_overBlur{
+  align-items: center;
+  border: solid 5px #fff;
+  border-radius: 15px;
+  color: #fff;
+  display: flex;
+  height: 10em;
+  justify-content: center;
+  margin-top: -2.9em;
+  padding: 2em 1em;
+  position: absolute;
+  text-align: center;
+  width: 10em;
+
+}
+
+.area_blur {
+    border-radius: 15px;
+    filter: blur(2px);
+    height: 10em;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    width: 10em;
+    z-index: 10;
+}
+
+.background_blur {
+  background: url(tree.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 31.25em;
+  margin-top: 2.9em;
+  position: absolute;
+  width: 50em;
+}
+
+.background_clean {
+  background-image: url(tree.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 31.25em;
+  opacity: 1;
+  position: absolute;
+  width: 50em;
+  z-index: 5;
+}
